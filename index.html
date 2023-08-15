@@ -44,13 +44,15 @@
     <section class="container mx-auto mt-8">
         <ul class="flex space-x-4 justify-center">
             
-            <li><a href="#" data-category="all" class="category-filter text-gray-600 hover:text-blue-500">All</a></li>
-            <li><a href="#" data-category="technology" class="category-filter text-gray-600 hover:text-blue-500">Technology</a></li>
-            <li><a href="#" data-category="travel" class="category-filter text-gray-600 hover:text-blue-500">Travel</a></li>            
-            <li><a href="#" data-category="lifestyle" class="category-filter text-gray-600 hover:text-blue-500">Lifestyle</a></li>
-            <li><a href="#" data-category="food" class="category-filter text-gray-600 hover:text-blue-500">Food and Recipes</a></li>
-            <li><a href="#" data-category="entertainment" class="category-filter text-gray-600 hover:text-blue-500">Entertainment</a></li>
-           
+            
+                <li><a href="#" data-category="all" class="category-filter text-gray-600 hover:text-blue-500 text-sm md:text-base">All</a></li>
+                <li><a href="#" data-category="technology" class="category-filter text-gray-600 hover:text-blue-500 text-sm md:text-base">Technology</a></li>
+                <li><a href="#" data-category="travel" class="category-filter text-gray-600 hover:text-blue-500 text-sm md:text-base">Travel</a></li>            
+                <li><a href="#" data-category="lifestyle" class="category-filter text-gray-600 hover:text-blue-500 text-sm md:text-base">Lifestyle</a></li>
+                <li><a href="#" data-category="food" class="category-filter text-gray-600 hover:text-blue-500 text-sm md:text-base">Food and Recipes</a></li>
+                <li><a href="#" data-category="entertainment" class="category-filter text-gray-600 hover:text-blue-500 text-sm md:text-base">Entertainment</a></li>
+      
+            
             
             <!-- Add more categories as needed -->
         </ul>
@@ -92,11 +94,11 @@
             <div class="blog-post lifestyle">
                 <div class="bg-white p-6 rounded shadow">
                     <img src="/images/lifestyle.jpg" alt="Travel Blog" class="w-full h-48 object-cover mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Unforgettable Adventures Around the Globe</h3>
-                    <p class="text-gray-600 mb-4">Embark on a journey through picturesque landscapes and cultural gems...</p>
+                    <h3 class="text-xl font-semibold mb-2">Embracing the Joys of Everyday Life</h3>
+                    <p class="text-gray-600 mb-4">Discover the beauty of finding happiness in simple moments and the art of living well...</p>
                     <a href="#" class="text-blue-500 hover:underline">Read More</a>
                     <div class="mt-4">
-                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Travel</span>
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Lifestyle</span>
                     </div>
                 </div>
                 <!-- ... end of the lifestyle blog post ... -->
@@ -106,11 +108,11 @@
             <div class="blog-post food">
                 <div class="bg-white p-6 rounded shadow">
                     <img src="/images/images.jpeg" alt="Travel Blog" class="w-full h-48 object-cover mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Unforgettable Adventures Around the Globe</h3>
-                    <p class="text-gray-600 mb-4">Embark on a journey through picturesque landscapes and cultural gems...</p>
+                    <h3 class="text-xl font-semibold mb-2">Delicious Culinary Adventures: Exploring Tastes and Recipes</h3>
+                    <p class="text-gray-600 mb-4">Indulge in a culinary journey filled with mouthwatering dishes, cooking tips, and delectable recipes...</p>
                     <a href="#" class="text-blue-500 hover:underline">Read More</a>
                     <div class="mt-4">
-                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Travel</span>
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Food and Recipes</span>
                     </div>
                 </div>
             </div>
@@ -120,11 +122,11 @@
             <div class="blog-post entertainment">
                 <div class="bg-white p-6 rounded shadow">
                     <img src="/images/entertainment.jpeg" alt="Travel Blog" class="w-full h-48 object-cover mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Unforgettable Adventures Around the Globe</h3>
-                    <p class="text-gray-600 mb-4">Embark on a journey through picturesque landscapes and cultural gems...</p>
+                    <h3 class="text-xl font-semibold mb-2">Lights, Camera, Action: Exploring the World of Entertainment</h3>
+                    <p class="text-gray-600 mb-4">Dive into the exciting realm of movies, TV shows, music, and pop culture trends that keep us entertained...</p>
                     <a href="#" class="text-blue-500 hover:underline">Read More</a>
                     <div class="mt-4">
-                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Travel</span>
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Entertainment</span>
                     </div>
                 </div>
             </div>
@@ -138,7 +140,7 @@
 
     <footer class="bg-gray-900 text-white p-4 text-center mt-32">
         <div class="container mx-auto">
-            <p>&copy; 2023 My Blog. All rights reserved.</p>
+            <p>&copy; <span id="currentYear"></span> My Blog. All rights reserved.</p>
             <!-- Social Media Links -->
             <ul class="flex justify-center space-x-4 mt-4">
                 <li><a href="#" class="text-gray-600 hover:text-white"><i class="fab fa-facebook"></i></a></li>

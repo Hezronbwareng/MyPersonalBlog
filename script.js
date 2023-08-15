@@ -21,3 +21,9 @@ categoryFilters.forEach(filter => {
         }
     });
 });
+
+// footer copyright
+const currentYear = new Date().getFullYear()
+document.getElementById("currentYear").textContent = currentYear
+
+//console.log(currentYear)
