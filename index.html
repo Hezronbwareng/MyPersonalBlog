@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white p-4 shadow">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">My Blog</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="text-gray-600 hover:text-black">Home</a></li>
+                <li><a href="about.html" class="text-gray-600 hover:text-black">About</a></li>
+                <li><a href="contact.html" class="text-gray-600 hover:text-black">Contact</a></li>
+            </ul>
+
+            <ul class="flex space-x-2">
+                <li><a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/_hezron_bett" class="text-gray-600 hover:text-black"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+
+
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="bg-gray-800 text-white p-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-4">Welcome to My Blog</h2>
+            <p class="text-lg mb-8">Explore the latest articles on various topics.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full transition duration-300">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Category Filter -->
+    <section class="container mx-auto mt-8">
+        <ul class="flex space-x-4 justify-center">
+            
+            <li><a href="#" data-category="all" class="category-filter text-gray-600 hover:text-blue-500">All</a></li>
+            <li><a href="#" data-category="technology" class="category-filter text-gray-600 hover:text-blue-500">Technology</a></li>
+            <li><a href="#" data-category="travel" class="category-filter text-gray-600 hover:text-blue-500">Travel</a></li>            
+            <li><a href="#" data-category="lifestyle" class="category-filter text-gray-600 hover:text-blue-500">Lifestyle</a></li>
+            <li><a href="#" data-category="food" class="category-filter text-gray-600 hover:text-blue-500">Food and Recipes</a></li>
+            <li><a href="#" data-category="entertainment" class="category-filter text-gray-600 hover:text-blue-500">Entertainment</a></li>
+           
+            
+            <!-- Add more categories as needed -->
+        </ul>
+    </section>
+
+    <!-- Blog Post Section -->
+    <section class="container mx-auto mt-8" id="blog-posts">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Sample Blog Post 1 - Technology -->
+            <div class="blog-post technology">
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="/images/blog.jpg" alt="Technology Blog" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Exploring the Latest Tech Trends</h3>
+                    <p class="text-gray-600 mb-4">Discover the breakthroughs and innovations shaping the tech landscape...</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read More</a>
+                    <div class="mt-4">
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Technology</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Blog Post 2 - Travel -->
+            <div class="blog-post travel">
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="/images/travel.jpg" alt="Travel Blog" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Unforgettable Adventures Around the Globe</h3>
+                    <p class="text-gray-600 mb-4">Embark on a journey through picturesque landscapes and cultural gems...</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read More</a>
+                    <div class="mt-4">
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Travel</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more sample blog posts for other categories -->
+
+
+              <!-- ... sample of the lifestyle blog post ... -->
+            <div class="blog-post lifestyle">
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="/images/lifestyle.jpg" alt="Travel Blog" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Unforgettable Adventures Around the Globe</h3>
+                    <p class="text-gray-600 mb-4">Embark on a journey through picturesque landscapes and cultural gems...</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read More</a>
+                    <div class="mt-4">
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Travel</span>
+                    </div>
+                </div>
+                <!-- ... end of the lifestyle blog post ... -->
+            </div>
+
+              <!-- ... sample of the food blog post ... -->
+            <div class="blog-post food">
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="/images/images.jpeg" alt="Travel Blog" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Unforgettable Adventures Around the Globe</h3>
+                    <p class="text-gray-600 mb-4">Embark on a journey through picturesque landscapes and cultural gems...</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read More</a>
+                    <div class="mt-4">
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Travel</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ... sample of the entertainment blog post ... -->
+
+            <div class="blog-post entertainment">
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="/images/entertainment.jpeg" alt="Travel Blog" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Unforgettable Adventures Around the Globe</h3>
+                    <p class="text-gray-600 mb-4">Embark on a journey through picturesque landscapes and cultural gems...</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read More</a>
+                    <div class="mt-4">
+                        <span class="px-2 py-1 bg-gray-200 text-gray-600 text-xs rounded-full">Travel</span>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="bg-gray-900 text-white p-4 text-center mt-32">
+        <div class="container mx-auto">
+            <p>&copy; 2023 My Blog. All rights reserved.</p>
+            <!-- Social Media Links -->
+            <ul class="flex justify-center space-x-4 mt-4">
+                <li><a href="#" class="text-gray-600 hover:text-white"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/_hezron_bett" class="text-gray-600 hover:text-white"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="text-gray-600 hover:text-white"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    
+
+    <script src="script.js">
+     
+    </script>
+
+</body>
+</html>
