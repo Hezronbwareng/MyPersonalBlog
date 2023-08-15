@@ -23,7 +23,7 @@ Visit the [live website](#) to explore the blog posts and read the latest articl
 
 ## Installation
 
-1. Clone this repository to your local machine using:git clone https:#
+1. Clone this repository to your local machine using:https://github.com/Hezronbwareng/MyPersonalBlog.git
 
 2. Open the project folder in your preferred code editor.
 
